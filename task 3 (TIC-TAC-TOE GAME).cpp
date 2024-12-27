@@ -64,13 +64,7 @@ void playTicTacToe() {
         currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
     }
 
-    cout << "Play again? (y/n): ";
-    char choice;
-    cin >> choice;
-    if (choice == 'y' || choice == 'Y')
-        playTicTacToe();
-    else
-        cout << "Thanks for playing!\n";
+ 
 }
 
 int main() {
